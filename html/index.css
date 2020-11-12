@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    justify-content: center;
+   
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.display {
+    min-height: 60px;
+    padding: 20px;
+    border: 1px solid grey;
+    max-width: 200px ;
+    margin-bottom: 10px;
+}
+
+.buttons {
+    display: flex;
+    width: 300px;
+}
+
+p {
+    padding: 5px;
+    border: 1px solid grey;
+    margin: 0 10px 10px 0;
+    text-align: text;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.numbers {
+    width: 70%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cool calculator</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div className="wrapper">
+                <div class="display">
+                    
+                </div>
+                <div class="buttons">
+                    <div class="numbers">
+                        <p onclick="getNum(7)">7</p>
+                        <p onclick="getNum(8)">8</p>
+                        <p onclick="getNum(9)">9</p>
+                        <p onclick="getNum(4)">4</p>
+                        <p onclick="getNum(5)">5</p>
+                        <p onclick="getNum(6)">6</p>
+                        <p onclick="getNum(1)">1</p>
+                        <p onclick="getNum(2)">2</p>
+                        <p onclick="getNum(3)">3</p>
+                        <p onclick="refresh()">C</p>
+                        <p onclick="getNum(0)">0</p>
+                        <p>.</p>
+                    </div>
+                    <div class="operators">
+                        <p>+/-</p>
+                        <p>-></p>
+                        <p onclick="getOperator('x')">x</p>
+                        <p onclick="getOperator('/')">/</p>
+                        <p onclick="getOperator('-')">-</p>
+                        <p  onclick="getOperator('+')">+</p>
+                        <p onclick="getResult()">=</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="index.js">
+        </script>
+    </body>
+</html>
